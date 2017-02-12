@@ -20,8 +20,6 @@ class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         var contentWidth: CGFloat = 0.0
 
-        print("Scrollview width: \(scrollView.frame.size.width)")
-
         let scrollWidth = scrollView.frame.size.width
         for x in 0...2 {
             let image = UIImage(named: "icon\(x).png")
